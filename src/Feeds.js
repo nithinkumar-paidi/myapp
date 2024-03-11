@@ -18,7 +18,7 @@ export default function Feeds() {
   }, []);
   return (
     <div>
-      <h2>Counter</h2>
+      <div><img src="Imagesfolder/mango.jfif" alt=""></img></div>
       <button onClick={() => decrement()}>-</button>
       {count}
       <button onClick={() => increment()}>+</button>
