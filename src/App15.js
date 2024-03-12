@@ -8,7 +8,6 @@ export default function App15() {
       <BrowserRouter>
         <Link to="/">Feeds</Link> | <Link to="/post">Post</Link>
         <Routes>
-          
             <Route path="/post" element={<Post/>}></Route>
             <Route path="/" index element={<Feeds/>}></Route>
         </Routes>
